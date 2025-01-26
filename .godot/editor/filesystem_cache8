@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1737889324
+Control.gd::GDScript::-1::1737858150::0::1::::<>Control<><><>::
+export_presets.cfg::TextFile::-1::1737880350::0::1::::<><><><>::
+icon.svg::CompressedTexture2D::3152499847371987230::1737705675::1737705680::1::::<><><>c838b21277b2b285a766fbd6fc9aba73<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Main.cs::CSharpScript::9074799628201080498::1737880917::0::1::::<>Control<><><>::
+Main.tscn::PackedScene::8894115599490699514::1737889220::0::1::::<><><><>::uid://d2j5vhm670r7g::::res://Main.cs<>res://Control.gd<>uid://br0yrcq1ksf63::::res://Node3d.gd<>uid://bk6dhg7r5s4es::::res://icon.svg
+Node3d.gd::GDScript::3632728166672894014::1737878280::0::1::::<>Node3D<><><>::
+README.md::TextFile::-1::1737885194::0::1::::<><><><>::
+::res://libs/::1737889155

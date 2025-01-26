@@ -1,0 +1,37 @@
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.deps.json
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.runtimeconfig.json
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\NDILibDotNet2.dll
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\bin\Debug\NDILibDotNet2.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.csproj.AssemblyReference.cache
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.AssemblyInfoInputs.cache
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.AssemblyInfo.cs
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.csproj.CoreCompileInputs.cache
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot ND.EDD3E143.Up2Date
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\refint\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.genruntimeconfig.cache
+D:\Projects\Apps\Godot Apps\Godot NDI CSharp\.godot\mono\temp\obj\Debug\ref\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.csproj.AssemblyReference.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.AssemblyInfoInputs.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.AssemblyInfo.cs
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.csproj.CoreCompileInputs.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\refint\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.deps.json
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.runtimeconfig.json
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\Godot NDI CSharp.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\bin\Debug\NDILibDotNet2.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot ND.EDD3E143.Up2Date
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\Godot NDI CSharp.genruntimeconfig.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Debug\ref\Godot NDI CSharp.dll

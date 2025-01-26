@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4693DB-3FCC-48C8-B9AD-ECA931367242}|Godot NDI CSharp.csproj|d:\\projects\\apps\\godot apps\\godot ndi\\godot ndi csharp\\godot ndi csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A4693DB-3FCC-48C8-B9AD-ECA931367242}|Godot NDI CSharp.csproj|solutionrelative:godot ndi csharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Godot NDI CSharp.csproj",
+              "DocumentMoniker": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj",
+              "RelativeDocumentMoniker": "Godot NDI CSharp.csproj",
+              "ToolTip": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj",
+              "RelativeToolTip": "Godot NDI CSharp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-26T09:11:55.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

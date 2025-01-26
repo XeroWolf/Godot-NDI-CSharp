@@ -1,0 +1,83 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Godot NDI CSharp/1.0.0": {
+        "dependencies": {
+          "Godot.SourceGenerators": "4.4.0-beta.1",
+          "GodotSharp": "4.4.0-beta.1",
+          "GodotSharpEditor": "4.4.0-beta.1",
+          "NDILibDotNet2": "1.0.0.0"
+        },
+        "runtime": {
+          "Godot NDI CSharp.dll": {}
+        }
+      },
+      "Godot.SourceGenerators/4.4.0-beta.1": {},
+      "GodotSharp/4.4.0-beta.1": {
+        "runtime": {
+          "lib/net8.0/GodotSharp.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "GodotSharpEditor/4.4.0-beta.1": {
+        "dependencies": {
+          "GodotSharp": "4.4.0-beta.1"
+        },
+        "runtime": {
+          "lib/net8.0/GodotSharpEditor.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "NDILibDotNet2/1.0.0.0": {
+        "runtime": {
+          "NDILibDotNet2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Godot NDI CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Godot.SourceGenerators/4.4.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5u2Q2YDCzbrpRcjMzPBvi1cDFsKzz3X+LTXVDhpWU12UNLRA4mm+anNUW+c8i1Q1yBBRkAHHEu4AkIUql01HyQ==",
+      "path": "godot.sourcegenerators/4.4.0-beta.1",
+      "hashPath": "godot.sourcegenerators.4.4.0-beta.1.nupkg.sha512"
+    },
+    "GodotSharp/4.4.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5knU+c5/QE1iVjRXADbeaCfLccINmlRJowZn0wlJyrAZn+u23SOWSgRMWwH5xIQL8DRU+LdR8IKxVT3hnOw0UQ==",
+      "path": "godotsharp/4.4.0-beta.1",
+      "hashPath": "godotsharp.4.4.0-beta.1.nupkg.sha512"
+    },
+    "GodotSharpEditor/4.4.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nUhhF42E2EVs3bCa7KOu0NO8mjoZB3SmVmaRuHRrqwC1p1LVJPABjabTw4QflfJGT62zI2AfUUT+ISOeV3CIxw==",
+      "path": "godotsharpeditor/4.4.0-beta.1",
+      "hashPath": "godotsharpeditor.4.4.0-beta.1.nupkg.sha512"
+    },
+    "NDILibDotNet2/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

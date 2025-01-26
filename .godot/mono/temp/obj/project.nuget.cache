@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gr/hHNPLK1M=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Xero\\.nuget\\packages\\godot.sourcegenerators\\4.4.0-beta.1\\godot.sourcegenerators.4.4.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Xero\\.nuget\\packages\\godotsharp\\4.4.0-beta.1\\godotsharp.4.4.0-beta.1.nupkg.sha512",
+    "C:\\Users\\Xero\\.nuget\\packages\\godotsharpeditor\\4.4.0-beta.1\\godotsharpeditor.4.4.0-beta.1.nupkg.sha512"
+  ],
+  "logs": []
+}

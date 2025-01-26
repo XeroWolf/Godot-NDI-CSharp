@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Game",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${env:GODOT43}",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "console": "internalConsole",
+      },
+      {
+        "name": "Debug Current Scene",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${env:GODOT43}",
+        "args": [
+          "${fileDirname}/${fileBasenameNoExtension}.tscn"
+        ],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "console": "internalConsole",
+      }
+    ]
+  }

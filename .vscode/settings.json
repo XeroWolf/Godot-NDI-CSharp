@@ -1,0 +1,5 @@
+{
+    "godotTools.editorPath.godot4": "d:\\Projects\\Godot Engine\\Godot 4.3\\Godot_v4.3-stable_mono_win64\\Godot_v4.3-stable_mono_win64.exe",
+    "dotnet.preferCSharpExtension": true,
+    "dotnet.defaultSolution": "Godot NDI CSharp.sln"
+}

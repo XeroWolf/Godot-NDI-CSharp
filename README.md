@@ -1,0 +1,12 @@
+# Godot NDI® C# Example
+
+This is an example for integrating NDI into a Godot C# project on Windows
+
+It uses the NDI C# Wrapper by Elias Puurunen,
+Based on the .NET Wrapper for C# provided by the NDI SDK.
+
+NDI® is a registered trademark of Vizrt.
+
+## Notes
+The Sub Viewport "Transparent_bg" setting must be set to "True" else you will get
+strange results.

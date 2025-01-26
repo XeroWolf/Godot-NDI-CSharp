@@ -1,0 +1,160 @@
+[gd_scene load_steps=15 format=3 uid="uid://dyym1w4c631ra"]
+
+[ext_resource type="Script" uid="uid://d2j5vhm670r7g" path="res://Main.cs" id="1_glv2v"]
+[ext_resource type="Script" path="res://Control.gd" id="2_cm0pq"]
+[ext_resource type="Script" uid="uid://br0yrcq1ksf63" path="res://Node3d.gd" id="2_uu6xs"]
+[ext_resource type="Texture2D" uid="uid://bk6dhg7r5s4es" path="res://icon.svg" id="4_fos0i"]
+
+[sub_resource type="Gradient" id="Gradient_r0du0"]
+colors = PackedColorArray(0, 0.158911, 0.830938, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_cm0pq"]
+gradient = SubResource("Gradient_r0du0")
+
+[sub_resource type="SphereMesh" id="SphereMesh_glv2v"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_r0du0"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_glv2v"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_glv2v"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_uu6xs"]
+sky_material = SubResource("ProceduralSkyMaterial_glv2v")
+
+[sub_resource type="Environment" id="Environment_r0du0"]
+background_mode = 2
+sky = SubResource("Sky_uu6xs")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="SystemFont" id="SystemFont_cm0pq"]
+
+[sub_resource type="SystemFont" id="SystemFont_fos0i"]
+
+[node name="Main" type="Control" node_paths=PackedStringArray("label", "updateTimer", "subViewport")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_glv2v")
+label = NodePath("MarginContainer/Label")
+updateTimer = NodePath("Timer")
+subViewport = NodePath("SubViewportContainer/SubViewport")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+unique_name_in_owner = true
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(1280, 720)
+size_2d_override = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="Control" type="Control" parent="SubViewportContainer/SubViewport"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_cm0pq")
+
+[node name="Background" type="TextureRect" parent="SubViewportContainer/SubViewport/Control"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_cm0pq")
+
+[node name="Icon" type="Sprite2D" parent="SubViewportContainer/SubViewport/Control"]
+position = Vector2(436, 474)
+texture = ExtResource("4_fos0i")
+
+[node name="3DViewportContainer" type="SubViewportContainer" parent="SubViewportContainer/SubViewport"]
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="3DViewport" type="SubViewport" parent="SubViewportContainer/SubViewport/3DViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(1280, 720)
+render_target_update_mode = 4
+
+[node name="Node3D" type="Node3D" parent="SubViewportContainer/SubViewport/3DViewportContainer/3DViewport"]
+script = ExtResource("2_uu6xs")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SubViewportContainer/SubViewport/3DViewportContainer/3DViewport/Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.742052, 0, 0)
+mesh = SubResource("SphereMesh_glv2v")
+skeleton = NodePath("../../../../../..")
+
+[node name="BoxMesh" type="MeshInstance3D" parent="SubViewportContainer/SubViewport/3DViewportContainer/3DViewport/Node3D"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 0.746057, 0.665882, 0, -0.665882, 0.746057, 0.579831, 0, 0)
+mesh = SubResource("BoxMesh_r0du0")
+skeleton = NodePath("../../../../../..")
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport/3DViewportContainer/3DViewport/Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.959)
+attributes = SubResource("CameraAttributesPractical_glv2v")
+current = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="SubViewportContainer/SubViewport/3DViewportContainer/3DViewport/Node3D"]
+environment = SubResource("Environment_r0du0")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewportContainer/SubViewport/3DViewportContainer/3DViewport/Node3D"]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Icon2" type="Sprite2D" parent="SubViewportContainer/SubViewport"]
+position = Vector2(884, 491)
+texture = ExtResource("4_fos0i")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_fonts/font = SubResource("SystemFont_cm0pq")
+
+[node name="BgButton" type="Button" parent="MarginContainer"]
+custom_minimum_size = Vector2(150, 40)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+theme_override_fonts/font = SubResource("SystemFont_fos0i")
+toggle_mode = true
+button_pressed = true
+text = "Toggle Background"
+
+[connection signal="toggled" from="MarginContainer/BgButton" to="SubViewportContainer/SubViewport/Control" method="_on_bg_button_toggled"]
