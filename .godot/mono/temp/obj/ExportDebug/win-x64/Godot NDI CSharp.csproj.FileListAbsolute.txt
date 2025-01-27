@@ -397,3 +397,203 @@ D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\Expo
 D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.pdb
 D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.genruntimeconfig.cache
 D:\Projects\Apps\Godot Apps\Godot NDI\Godot NDI CSharp\.godot\mono\temp\obj\ExportDebug\win-x64\ref\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Godot NDI CSharp.deps.json
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Godot NDI CSharp.runtimeconfig.json
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Godot NDI CSharp.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\GodotSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Microsoft.CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Microsoft.VisualBasic.Core.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Microsoft.VisualBasic.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Microsoft.Win32.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Microsoft.Win32.Registry.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.AppContext.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Buffers.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Collections.Concurrent.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Collections.Immutable.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Collections.NonGeneric.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Collections.Specialized.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Collections.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ComponentModel.Annotations.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ComponentModel.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ComponentModel.TypeConverter.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ComponentModel.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Configuration.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Console.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Core.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Data.Common.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Data.DataSetExtensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Data.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.Contracts.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.Debug.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.Process.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.StackTrace.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.Tools.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.TraceSource.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Diagnostics.Tracing.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Drawing.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Drawing.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Dynamic.Runtime.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Formats.Asn1.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Formats.Tar.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Globalization.Calendars.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Globalization.Extensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Globalization.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Compression.Brotli.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Compression.FileSystem.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Compression.ZipFile.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Compression.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.FileSystem.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.FileSystem.Watcher.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.FileSystem.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.IsolatedStorage.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.MemoryMappedFiles.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Pipes.AccessControl.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Pipes.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Linq.Expressions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Linq.Parallel.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Linq.Queryable.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Linq.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Memory.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Http.Json.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Http.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.HttpListener.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Mail.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.NameResolution.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.NetworkInformation.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Ping.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Quic.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Requests.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Security.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.ServicePoint.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.Sockets.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.WebClient.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.WebHeaderCollection.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.WebProxy.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.WebSockets.Client.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.WebSockets.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Net.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Numerics.Vectors.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Numerics.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ObjectModel.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Private.CoreLib.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Private.DataContractSerialization.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Private.Uri.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Private.Xml.Linq.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Private.Xml.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.DispatchProxy.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.Emit.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.Extensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.Metadata.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.TypeExtensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Reflection.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Resources.Reader.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Resources.ResourceManager.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Resources.Writer.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Extensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Handles.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.InteropServices.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Intrinsics.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Loader.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Numerics.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Serialization.Json.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Serialization.Xml.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.Serialization.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Runtime.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.AccessControl.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Claims.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.Cng.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.Csp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.Encoding.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.Primitives.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Cryptography.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Principal.Windows.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.Principal.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.SecureString.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Security.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ServiceModel.Web.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ServiceProcess.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Text.Encoding.CodePages.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Text.Encoding.Extensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Text.Encoding.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Text.Encodings.Web.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Text.Json.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Text.RegularExpressions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Channels.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Overlapped.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Tasks.Extensions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Tasks.Parallel.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Tasks.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Thread.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.ThreadPool.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.Timer.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Threading.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Transactions.Local.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Transactions.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.ValueTuple.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Web.HttpUtility.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Web.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Windows.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.Linq.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.ReaderWriter.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.Serialization.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.XDocument.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.XPath.XDocument.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.XPath.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.XmlDocument.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.XmlSerializer.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.Xml.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\WindowsBase.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\mscorlib.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\netstandard.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\System.IO.Compression.Native.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\clretwrc.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\clrgc.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\clrjit.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\coreclr.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\createdump.exe
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\hostfxr.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\hostpolicy.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\mscordaccore.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\mscordaccore_amd64_amd64_8.0.1124.51707.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\mscordbi.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\mscorrc.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\msquic.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\bin\ExportDebug\win-x64\NDILibDotNet2.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.csproj.AssemblyReference.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.AssemblyInfoInputs.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.AssemblyInfo.cs
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.csproj.CoreCompileInputs.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.sourcelink.json
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot ND.EDD3E143.Up2Date
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\refint\Godot NDI CSharp.dll
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.pdb
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\Godot NDI CSharp.genruntimeconfig.cache
+D:\Projects\Apps\Godot Apps\Godot NDI\GodotNDICSharp\.godot\mono\temp\obj\ExportDebug\win-x64\ref\Godot NDI CSharp.dll

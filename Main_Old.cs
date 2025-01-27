@@ -7,8 +7,7 @@ using NewTek.NDI;
 using System;
 using System.Runtime.InteropServices;
 
-
-public partial class Main : Control
+public partial class Main_Old : Control
 {
 	[Export] string sourceName = "Godot NDI";
 	[Export] Label label; //fps label
@@ -19,39 +18,30 @@ public partial class Main : Control
 	[Export] SubViewport subViewport;
 	
 	
-
+	byte[] imageData; // This will be used to hold the viewport data
 	IntPtr bufferPtr; // pointer to video buffer
 	
+
 	NDIlib.video_frame_v2_t videoFrame; //Used to construct the NDI video
 
 	IntPtr sendInstancePtr; // NDI sender
 
 	GodotObject _object = new GodotObject(); // dummy object
 
-	RenderingDevice renderingDevice;
-	Rid viewPortRID;
-	Rid renderServerRID;
 	
 	bool _ndiReady = false;
 	bool _send = false;
 	int _frameNumber = 0; //counter for adusting the send rate
 	int _connections = 0;
 
-	
 
 
 	public override void _Ready()
 	{
-		updateTimer.Timeout += UpdateTimer;
-
 		// Used to keep the renderer active with the program is minimized
 		DisplayServer.RegisterAdditionalOutput(_object);
-
-		// init Rids for use later
-		renderingDevice = RenderingServer.GetRenderingDevice();
-		viewPortRID = subViewport.GetTexture().GetRid();
-		renderServerRID = RenderingServer.TextureGetRdTexture(viewPortRID);
 		
+		updateTimer.Timeout += UpdateTimer;
 
 		// .Net interop doesn't handle UTF-8 strings, so do it manually
 		// These must be freed later
@@ -100,9 +90,10 @@ public partial class Main : Control
 		int yres = subViewport.Size.Y;
 		int stride = xres * 4; // this is used in the SDK examples if using(xres * 32/*BGRA bpp*/ + 7) / 8; 
 		int bufferSize = yres * stride;
-
+		
 		// allocate some memory for a video buffer
-		bufferPtr = Marshal.AllocHGlobal(bufferSize);
+		bufferPtr = Marshal.AllocHGlobal((int)bufferSize);
+		
 
 		// We are going to create a 1280x720 progressive frame at 29.97Hz.
 		videoFrame = new NDIlib.video_frame_v2_t()
@@ -113,7 +104,7 @@ public partial class Main : Control
 			// Use RGBA video instead of BGRA as used in the NDI Examples
 			FourCC = NDIlib.FourCC_type_e.FourCC_type_RGBA, // Oringinal FourCC_type_BGRA
 			// The frame-rate
-			frame_rate_N = frameRate * 1000, // my way of setting the frame rate this will give you 29.97
+			frame_rate_N = frameRate * 1000, // my way of setting the frame rate this will give you 59.
 			frame_rate_D = 1001,
 			// The aspect ratio (16:9)
 			picture_aspect_ratio = (16.0f / 9.0f),
@@ -131,8 +122,7 @@ public partial class Main : Control
 			timestamp = 0
 		};
 
-		
-		// star timer for checking connections
+
 		updateTimer.Start();
 		_ndiReady = true;
 	}
@@ -143,65 +133,11 @@ public partial class Main : Control
 	public override void _Process(double delta)
 	{
 		if (_ndiReady && _send)
-		{	
-			
-			GetRenderTexture();
-
-			label.Text = $"FPS:{Engine.GetFramesPerSecond().ToString()} | Send Rate: {(int)frameRate * sendRate} ";
-			label.Text += $"| Res:{subViewport.Size.X}x{subViewport.Size.Y}";
-
-		}
-	}
-
-	//get the sub viewport texture using the RID declares earlier
-	public void GetRenderTexture()
-	{
-		//conversion so that the higher the send rate the less frames are skipped
-		float actualSendRate = frameRate - (frameRate * sendRate);
-
-		//Gives some control over how often frames are grabbed
-		//Based on your use case you may only need to send frames when a
-		//change is made as NDI always holds the last frame in the buffer
-		_frameNumber++;
-		if (_frameNumber >= actualSendRate)
 		{
-			_frameNumber = 0;
-			
-			var error = renderingDevice.TextureGetDataAsync(renderServerRID ,0 ,new Callable(this, "ProcessFramesCallback"));
-			if (error != Error.Ok) { GD.Print("error getting texture data");}
+			ProcessFrames();
+			label.Text = $"FPS:{Engine.GetFramesPerSecond().ToString()} | Send Rate: {(int)frameRate * sendRate} | Res:{subViewport.Size.X}x{subViewport.Size.Y}";
 		}
 	}
-
-
-
-	public void ProcessFramesCallback(byte[] array)
-	{	
-		//recieves the raw viewport data as a byte array
-		// Using TextureGetDataAsync added in Godot 4.4 instead of 
-		// renderingDevice.TextureGetData or subViewport.GetTexture().GetImage().GetData();
-		
-		//copy the viewport data to the memory use as the NDI video frame
-		Marshal.Copy(array, 0, bufferPtr, array.Length);
-
-
-		SendFrames();
-	}
-
-
-		public void SendFrames()
-	{
-
-		// Get the tally state of this source (we poll it),
-		NDIlib.tally_t NDI_tally = new NDIlib.tally_t();
-		NDIlib.send_get_tally(sendInstancePtr, ref NDI_tally, 0);
-
-
-		// We now submit the frame. Note that this call will be clocked so that we end up submitting 
-		// at exactly 29.97fps.
-		NDIlib.send_send_video_v2(sendInstancePtr, ref videoFrame);
-
-	}
-
 
 	// checks for a connection before processing and sending frames
 	public void UpdateTimer()
@@ -228,6 +164,46 @@ public partial class Main : Control
 		
 	}
 
+	//Gives some control over how often frames are processed and sent
+	//Based on your use case you may only need to send frames when a
+	//change is made as NDI always holds the last frame in the buffer
+	public void ProcessFrames()
+	{	
+		//conversion so that the higher the send rate the less frames are skipped
+		float actualSendRate = frameRate - (frameRate * sendRate);
+
+		_frameNumber++;
+		if (_frameNumber >= actualSendRate)
+		{
+			_frameNumber = 0;
+			//Get the raw viewport data in bytes
+			// Note this is relativly slow for video and it's NOT recommended
+			// to do this every frame for high resolutions or frame rates
+			// as it was not meant to be used in real time.
+			imageData = subViewport.GetTexture().GetImage().GetData();
+
+			//copy the viewport data to the memory allocated for use by NDI
+			Marshal.Copy(imageData, 0, bufferPtr, imageData.Length);
+
+			SendFrames();
+		}
+		
+	}
+
+		public void SendFrames()
+	{
+
+		// Get the tally state of this source (we poll it),
+		NDIlib.tally_t NDI_tally = new NDIlib.tally_t();
+		NDIlib.send_get_tally(sendInstancePtr, ref NDI_tally, 0);
+
+
+		// We now submit the frame. Note that this call will be clocked so that we end up submitting 
+		// at exactly 29.97fps.
+		NDIlib.send_send_video_v2(sendInstancePtr, ref videoFrame);
+
+	}
+
     public override void _ExitTree()
     {
         base._ExitTree();
@@ -240,7 +216,6 @@ public partial class Main : Control
 		// Free dummy object
 		DisplayServer.UnregisterAdditionalOutput(_object);
 		_object.Free();
-
 
 		// free our buffers
 		Marshal.FreeHGlobal(bufferPtr);

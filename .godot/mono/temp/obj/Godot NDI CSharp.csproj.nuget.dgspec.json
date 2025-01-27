@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj": {}
+    "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\GodotNDICSharp\\Godot NDI CSharp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj": {
+    "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\GodotNDICSharp\\Godot NDI CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj",
+        "projectUniqueName": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\GodotNDICSharp\\Godot NDI CSharp.csproj",
         "projectName": "Godot NDI CSharp",
-        "projectPath": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\Godot NDI CSharp.csproj",
+        "projectPath": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\GodotNDICSharp\\Godot NDI CSharp.csproj",
         "packagesPath": "C:\\Users\\Xero\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\Godot NDI CSharp\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "D:\\Projects\\Apps\\Godot Apps\\Godot NDI\\GodotNDICSharp\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,10 +57,6 @@
             "GodotSharp": {
               "target": "Package",
               "version": "[4.4.0-beta.1, )"
-            },
-            "GodotSharpEditor": {
-              "target": "Package",
-              "version": "[4.4.0-beta.1, )"
             }
           },
           "imports": [
@@ -74,12 +70,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
