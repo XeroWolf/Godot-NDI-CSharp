@@ -1,6 +1,6 @@
 # Godot NDI® C# Example
 
-This is an example for integrating NDI into a Godot C# on Windows
+This is an example for integrating NDI into Godot C# on Windows
 
 Based on the .NET Wrapper for C# provided by the NDI SDK.
 
